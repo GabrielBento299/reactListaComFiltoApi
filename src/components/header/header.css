@@ -1,0 +1,44 @@
+#header-container {
+  background: linear-gradient(
+    186deg,
+    rgba(199, 19, 19, 1) 0%,
+    rgba(62, 130, 15, 1) 62%
+  );
+
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#header-itens {
+  text-transform: uppercase;
+}
+
+#header-container h1 {
+  font-size: 3.2rem;
+  color: #c9c9c9;
+  animation: float 3s linear infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0rem);
+  }
+  50% {
+    transform: translateY(2rem);
+  }
+}
+
+a {
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: rgb(217, 255, 0);
+  text-decoration: none;
+}
+
+a:hover {
+  transform: scale(1.2);
+  color: var(--text-white);
+}
